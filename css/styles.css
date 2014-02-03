@@ -1,0 +1,67 @@
+body{
+	background: -webkit-radial-gradient(32% -1%,ellipse cover,#4e79e8 1%,#1d488b 40%) no-repeat;
+	background-color:#1d488b;
+	color:white;
+
+}
+
+nav.navbar{
+	background: rgba(24, 31, 41, 0.72);
+	border-radius: 0;
+}
+
+.plan{
+	margin-top: 30px;
+}
+
+.plan-wrapper{
+	margin-left:30px;
+}
+
+.plan-section-wrapper{
+	height: 200px;
+	padding-bottom:20px;
+}
+
+.plan-section:hover, .plan-section.active{
+	cursor:pointer;
+	background:rgba(255, 255, 255, 0.4);
+	border:1px solid rgb(27, 211, 49);
+}
+
+.section-half{
+	height:47.5%;
+}
+
+.plan-section{
+	background:rgba(255, 255, 255, 0.12);
+	height:100%;
+	text-align: center;
+	border: 1px solid rgba(107, 107, 224, 0.58);
+}
+
+
+.plan-desc{
+	display: none;
+}
+
+.section-help{
+	display: block;
+	text-align: right;
+	margin-right:95px;
+	font-style: italic;
+}
+
+.section-help .glyphicon-info-sign{
+	margin-right:5px;
+}
+
+.plan-section-half{
+	height:47.5%;
+}
+
+.plan-section-half.bottom{
+	margin-top:10px;
+}
+
+
