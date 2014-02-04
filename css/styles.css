@@ -19,37 +19,37 @@ nav.navbar{
 }
 
 .plan-section-wrapper{
-	height: 200px;
-	padding-bottom:20px;
+	
+	background:rgba(255, 255, 255, 0.12);
+	text-align: center;
+	border: 1px solid rgba(107, 107, 224, 0.58);
 }
 
-.plan-section:hover, .plan-section.active{
+.plan-section-wrapper:hover, .plan-section-wrapper.active{
 	cursor:pointer;
 	background:rgba(255, 255, 255, 0.4);
 	border:1px solid rgb(27, 211, 49);
 }
 
 .section-half{
+
 	height:47.5%;
 }
 
 .plan-section{
-	background:rgba(255, 255, 255, 0.12);
-	height:100%;
-	text-align: center;
-	border: 1px solid rgba(107, 107, 224, 0.58);
+	height: 120px;
 }
-
 
 .plan-desc{
 	display: none;
+	margin-top: 25px;
 }
 
 .section-help{
 	display: block;
 	text-align: right;
-	margin-right:95px;
 	font-style: italic;
+	margin-top: 5px;
 }
 
 .section-help .glyphicon-info-sign{
@@ -57,11 +57,13 @@ nav.navbar{
 }
 
 .plan-section-half{
-	height:47.5%;
+	height:54px;
 }
 
-.plan-section-half.bottom{
-	margin-top:10px;
+.plan .col-md-2, .plan .col-md-6, .plan .col-md-3{
+	margin:0;
+	padding:0;
 }
+
 
 

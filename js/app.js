@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
-  $('.plan-section').on('click', function(e){
+  $('.plan-section-wrapper').on('click', function(e){
     var elem = $(e.currentTarget);
-    var id = elem.attr('data-key');
+    var id = elem.find('.plan-section').attr('data-key');
 
-    $('.plan-section').removeClass('active');
+    $('.plan-section-wrapper').removeClass('active');
 
     $(elem).addClass('active');
 
