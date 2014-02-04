@@ -7,27 +7,12 @@
     <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.css">
     <script src="./bower_components/jquery/jquery.js"></script>
 
+	<script src="./js/app.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/text.css">
-    <link rel="stylesheet" href="css/960.css">
-    <link rel="stylesheet" href="css/default.css">
-    <!--[if IE]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <script type="text/javascript">
- 	function enter(elem){
- 	    elem.style.backgroundImage = "url('images/Putting-Green-Background.jpg')";
- 	}
-
- 	function leave(elem){
- 	    elem.style.backgroundImage = "url('images/Putting-Green-Background_dark.jpg')";
- 	}
-    </script>
 </head>
 
-<body id="home">
+<body>
 
     <nav class="navbar navbar-inverse" role="navigation">
       <div class="container-fluid">
@@ -46,43 +31,112 @@
     </nav>
 
   <div class="container">
-      <div class="container">
-        <h1>How to use this website</h1>
-          This website is.....
-      </div>
-  </div>
 
-  <div class="container_12">
-    
-    <div class="clear"></div>
-    <div class="grid_12 introBox"> 
-	<h2>How to use this site.</h2>
-	<p>
-	This site is here to help guide your ideas from happy inception through to satisfied customers. To ensure that each idea is throught through we ask that you follow a simple process of investigating your idea to establish some basic feasilibility steps. 
+	  <div>
+	    <h1>Idea Business Plan</h1>
+	    <p>This site is here to help guide your ideas from happy inception through to satisfied customers. To ensure that each idea is throught through we ask that you follow a simple process of investigating your idea to establish some basic feasilibility steps. Much like building any business each</p>
+	  </div>
 
-Much like building any business each 
-	</p>
-    </div>
-    <div class="clear"></div>
-    <div class="grid_10 blankBox">
-    	<div class="grid_2 tallBox" onmouseover="enter(this)" onmouseout="leave(this)" ><h2>Key partners</h2></div>
-    	<div class="grid_2 blankBox">
-		<div class="grid_2 smallBox" onmouseover="enter(this)" onmouseout="leave(this)"><h2>Key Activities</h2></div>
-		<div class="clear"></div>
-		<div class="grid_2 smallBox bottomBox" onmouseover="enter(this)" onmouseout="leave(this)"><h2>Key Resources</h2></div>
-	</div>	
-	<div class="grid_2 tallBox" onmouseover="enter(this)" onmouseout="leave(this)"><h2>Value Propsitions</h2></div>
-	<div class="grid_2 blankBox">	
-	      	 <div class="grid_2 smallBox" onmouseover="enter(this)" onmouseout="leave(this)"><h2>Customer Relations</h2></div>	
-	         <div class="clear"></div>
-		 <div class="grid_2 smallBox bottomBox" onmouseover="enter(this)" onmouseout="leave(this)"><h2>Channels</h2></div>	
+	<div class="plan">
+	  <div class="row">
+	  	<div class="col-md-offset-1 col-md-2 plan-section-wrapper">
+	  		<div class="plan-section" data-key="keypartners">
+	  			<h5 class="partners">Key Partners</h5>
+	  		</div>
+	  	</div>
+	  	<div class="col-md-2 plan-section-wrapper">
+	  		<div class="plan-section plan-section-half" data-key="keyactivities">
+	  			<h5>Key Activities</h5>	
+	  		</div>
+	  		<div class="plan-section plan-section-half bottom" data-key="keyresources">
+	  			<h5>Key Resources</h5>	
+	  		</div>
+	  	</div>
+	  	<div class="col-md-2 plan-section-wrapper">
+	  		<div class="plan-section" data-key="valuepropsitions">
+	  			<h5 class="money">Value Propsitions</h5>
+	  		</div>
+	  	</div>
+	  	<div class="col-md-2 plan-section-wrapper">
+	  		<div class="plan-section plan-section-half" data-key="customerrelations">
+	  			<h5>Customer Relations</h5>	
+	  		</div>
+	  		<div class="plan-section plan-section-half bottom" data-key="channels">
+	  			<h5>Channels</h5>	
+	  		</div>
+	  	</div>
+	  	<div class="col-md-2 plan-section-wrapper">
+	  		<div class="plan-section" data-key="customersegments">
+	  			<h5>Customer Segments</h5>
+	  		</div>
+	  	</div>
+	  </div>
+	  <div class="row">
+
+	  	<div class=" col-md-offset-1 col-md-5 plan-section-wrapper">
+	  		<div class="plan-section" data-key="coststructure">
+	  			<h5>Cost Structure</h5>
+	  		</div>
+	  	</div>
+
+	  	<div class="col-md-5 plan-section-wrapper">
+	  		<div class="plan-section" data-key="revenuestructure">
+	  			<h5>Revenue Structure</h5>
+	  		</div>
+	  	</div>
+  		
+  		</div>
 	</div>
-	<div class="grid_2 tallBox" onmouseover="enter(this)" onmouseout="leave(this)"><h2>Customer Segments</h2></div>
-	<div class="clear"></div>
-	<div class="grid_5 smallBox bottomBox lowerGrids" onmouseover="enter(this)" onmouseout="leave(this)"><h2>Cost Structure</h2></div>
-	<div class="grid_5 smallBox bottomBox lowerGrids" onmouseover="enter(this)" onmouseout="leave(this)"><h2>Revenue Structure</h2></div> 
-    </div>	
-    <div class="grid_2 sideBar">&nbsp;</div>
+
+	<div class="section-help">
+		<small><i class="glyphicon glyphicon-info-sign"></i>Click section to find out more information</small>
+	</div>
+
+	<div id="keypartners" class="plan-desc">
+		<h2>Key Partners</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, error ipsa sequi doloribus placeat ratione nulla necessitatibus nostrum. Exercitationem ratione sed impedit temporibus autem quo nesciunt a nemo eaque sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, vero voluptate quam dolore cum ipsum. Distinctio, a, ipsum, impedit, autem dicta eos minus cum corporis in voluptates ut labore commodi.</p>
+	</div>
+
+	<div id="keyactivities" class="plan-desc">
+		<h2>Key Activities</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, error ipsa sequi doloribus placeat ratione nulla necessitatibus nostrum. Exercitationem ratione sed impedit temporibus autem quo nesciunt a nemo eaque sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, vero voluptate quam dolore cum ipsum. Distinctio, a, ipsum, impedit, autem dicta eos minus cum corporis in voluptates ut labore commodi.</p>
+	</div>
+
+	<div id="valuepropsitions" class="plan-desc">
+		<h2>Value Propsitions</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, error ipsa sequi doloribus placeat ratione nulla necessitatibus nostrum. Exercitationem ratione sed impedit temporibus autem quo nesciunt a nemo eaque sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, vero voluptate quam dolore cum ipsum. Distinctio, a, ipsum, impedit, autem dicta eos minus cum corporis in voluptates ut labore commodi.</p>
+	</div>
+
+	<div id="customerrelations" class="plan-desc">
+		<h2>Customer Relations</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, error ipsa sequi doloribus placeat ratione nulla necessitatibus nostrum. Exercitationem ratione sed impedit temporibus autem quo nesciunt a nemo eaque sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, vero voluptate quam dolore cum ipsum. Distinctio, a, ipsum, impedit, autem dicta eos minus cum corporis in voluptates ut labore commodi.</p>
+	</div>
+
+	<div id="channels" class="plan-desc">
+		<h2>Channels</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, error ipsa sequi doloribus placeat ratione nulla necessitatibus nostrum. Exercitationem ratione sed impedit temporibus autem quo nesciunt a nemo eaque sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, vero voluptate quam dolore cum ipsum. Distinctio, a, ipsum, impedit, autem dicta eos minus cum corporis in voluptates ut labore commodi.</p>
+	</div>
+
+	<div id="customersegments" class="plan-desc">
+		<h2>Customer Segments</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, error ipsa sequi doloribus placeat ratione nulla necessitatibus nostrum. Exercitationem ratione sed impedit temporibus autem quo nesciunt a nemo eaque sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, vero voluptate quam dolore cum ipsum. Distinctio, a, ipsum, impedit, autem dicta eos minus cum corporis in voluptates ut labore commodi.</p>
+	</div>
+
+	<div id="coststructure" class="plan-desc">
+		<h2>Cost Structure</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, error ipsa sequi doloribus placeat ratione nulla necessitatibus nostrum. Exercitationem ratione sed impedit temporibus autem quo nesciunt a nemo eaque sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, vero voluptate quam dolore cum ipsum. Distinctio, a, ipsum, impedit, autem dicta eos minus cum corporis in voluptates ut labore commodi.</p>
+	</div>
+
+	<div id="revenuestructure" class="plan-desc">
+		<h2>Revenue Structure</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, error ipsa sequi doloribus placeat ratione nulla necessitatibus nostrum. Exercitationem ratione sed impedit temporibus autem quo nesciunt a nemo eaque sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, vero voluptate quam dolore cum ipsum. Distinctio, a, ipsum, impedit, autem dicta eos minus cum corporis in voluptates ut labore commodi.</p>
+	</div>
+
+	<div id="keyresources" class="plan-desc">
+		<h2>Key Resource</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, error ipsa sequi doloribus placeat ratione nulla necessitatibus nostrum. Exercitationem ratione sed impedit temporibus autem quo nesciunt a nemo eaque sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, vero voluptate quam dolore cum ipsum. Distinctio, a, ipsum, impedit, autem dicta eos minus cum corporis in voluptates ut labore commodi.</p>
+	</div>
+
  </div>
 </body>
 </html>
