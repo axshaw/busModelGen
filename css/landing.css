@@ -1,0 +1,114 @@
+body{
+	color:black;
+	background:none;
+}
+
+html{
+	background: url(../images/idea2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.panel-ctm{
+	background:rgba(0, 0, 0, 0.41);
+	border:1px solid rgba(46, 41, 41, 0.21);
+	color:white;
+	margin-top: 20%;
+	display: none;
+	opacity: 0;
+}
+
+.panel-ctm .questions{
+	list-style: none;
+	padding: 0;
+}
+
+.panel-ctm .questions li{
+	margin-top: 10px;
+}
+
+.panel-ctm .questions li a{
+	color: #F1FA8B;
+	text-decoration: underline;
+}
+
+.panel-ctm .questions .desc{
+	display: none;
+}
+
+.panel-ctm.active{
+	display: block;
+	opacity: 1;
+}
+
+.panel-ctm h1{
+	margin:30px 0;
+}
+
+.panel-ctm .btn{
+	margin: 20px 0;
+}
+
+.panel-ctm.full-screen{
+	margin-top:5%;
+}
+
+
+/*Business plan css - Need tidy*/
+
+
+.plan{
+	margin-top: 30px;
+}
+
+.plan-wrapper{
+	margin-left:30px;
+}
+
+.plan-section-wrapper{
+	background:rgba(94, 177, 94, 0.95);
+	text-align: center;
+	border: 1px solid #50A250;
+}
+
+.plan-section-wrapper:hover, .plan-section-wrapper.active{
+	cursor:pointer;
+	background-color: #47a447;
+	border-color: #398439;
+}
+
+.section-half{
+
+	height:47.5%;
+}
+
+.plan-section{
+	height: 120px;
+}
+
+.plan-desc{
+	display: none;
+	margin-top: 25px;
+}
+
+.section-help{
+	display: block;
+	text-align: right;
+	font-style: italic;
+	margin-top: 5px;
+}
+
+.section-help .glyphicon-info-sign{
+	margin-right:5px;
+}
+
+.plan-section-half{
+	height:54px;
+}
+
+.plan .col-md-2, .plan .col-md-6, .plan .col-md-3{
+	margin:0;
+	padding:0;
+}
